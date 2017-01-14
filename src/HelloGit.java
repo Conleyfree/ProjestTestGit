@@ -6,9 +6,11 @@ import java.util.concurrent.SynchronousQueue;
 public class HelloGit {
     public static void main(String[] args){
         System.out.println("Hello Git");
+        testCommit();
+
     }
 
-    void testCommit(){
+    static void testCommit(){
         System.out.println("@_@");
     }
 }
